@@ -8,6 +8,6 @@ launch python run_cmd.py path_from path_to
 
 ## scripts explanation:
 ### load_and_split.py - for opening and saving files and splitting feature columns
-### statistics.py - for normalization and calculations for new features
+### statistics_calc.py - for normalization and calculations for new features
 ### run_cmd.py - for command line arguments parsing and running from command line
 
