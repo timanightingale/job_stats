@@ -16,7 +16,7 @@ def save(df,path):
     
     df.to_csv(path,sep='\t',index=False)
     
-    return df
+    
 def split_columns(df):
     num=df['features'].iloc[0].split(',')[0]
     columns=['feature_%s_stand_{%s}'%(num,i) for i in range(256)]

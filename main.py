@@ -5,7 +5,7 @@ Created on Tue Jul 21 14:03:12 2020
 @author: ТОМА
 """
 
-from statistics import *
+from statistics_calc import *
 from load_and_split import *
 import pandas as pd
 
